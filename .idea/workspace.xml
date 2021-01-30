@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d7bd1e9-2158-421b-ab4a-e0ae823e647a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/002089特征.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/SparkMLlib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/breast_cancer.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/carFlow_all_column_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hs_err_pid13484.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/kmeans_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpsa.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/optimize.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/original.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/replay_pid13484.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sample_libsvm_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sample_linear_regression_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sample_linear_regression_data_repeat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sample_naive_bayes_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sms_spam.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/w0测试数据.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/人体指标.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/健康状况训练集.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/分词结果.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/汽车数据样本.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/环境分类数据.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/线性不可分数据集.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/BlogKMeans.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LinearRegression01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LinearRegression02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LinearRegression03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LinearRegression04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression05.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression06.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression07.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/VectorTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/CarEventCountAnalytics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/KafkaEventProducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/PredictLRwithLBFGS.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/RedisClient.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/TrainLRwithLBFGS.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/decision_tree/ClassificationDecisionTree.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/decision_tree/ClassificationRandomForest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$8$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/BlogKMeans.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/LinearRegression02$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/LinearRegression02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/LinearRegression03$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/LinearRegression03$$typecreator5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/LinearRegression03$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/feifei/machineLearning/LinearRegression03.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/BlogKMeans.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>training</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LinearRegression02.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/VectorTest.scala" />
+        <option value="$PROJECT_DIR$/data/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/RedisClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/CarEventCountAnalytics.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/decision_tree/ClassificationDecisionTree.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/BlogKMeans.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\service\job_tool\Maven_Repository" />
+        <option name="mavenHome" value="D:/service/job_tool/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\service\job_tool\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="machine-learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="machine-learning" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-355" />
+    <option name="y" value="100" />
+    <option name="width" value="1440" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="machineLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="NBKnowledgePane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\sturdy\machine-learing\scala_code\data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sturdy\machine-learing\scala_code\data" />
+      <recent name="E:\sturdy\machine-learing\scala_code\src\main\scala\com\feifei\machineLearning\decision_tree" />
+      <recent name="E:\sturdy\machine-learing\scala_code\src\main\scala\com\feifei\machineLearning\baidu_analytics" />
+      <recent name="E:\sturdy\machine-learing\scala_code\src\main\scala\com\feifei\machineLearning" />
+      <recent name="E:\sturdy\machine-learing\scala_code" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BlogKMeans">
+    <configuration name="BlogKMeans" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.feifei.machineLearning.BlogKMeans" />
+      <module name="MachineLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feifei.machineLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearRegression02" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.feifei.machineLearning.LinearRegression02" />
+      <module name="MachineLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feifei.machineLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BlogKMeans" />
+        <item itemvalue="Application.LinearRegression02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d7bd1e9-2158-421b-ab4a-e0ae823e647a" name="Default Changelist" comment="" />
+      <created>1611461070218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611461070218</updated>
+      <workItem from="1611461074289" duration="2265000" />
+      <workItem from="1611625805817" duration="622000" />
+      <workItem from="1611806945299" duration="2670000" />
+      <workItem from="1611966785619" duration="633000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6190000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info x="522" y="58" width="492" height="707" id="Project Explorer" order="3" show_stripe_button="false" weight="0.3297587" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Job Explorer" order="6" show_stripe_button="false" weight="0.3297587" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49868765" visible="true" weight="0.21447721" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16265912" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="11" />
+      <window_info anchor="bottom" id="Tool Output" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="17" />
+      <window_info anchor="bottom" id="Stack trace to UML" order="18" side_tool="true" />
+      <window_info anchor="bottom" id="Console" order="19" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.3297587" />
+      <window_info anchor="right" id="Codota" order="1" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="Structure" order="11" sideWeight="0.5013123" weight="0.17895442" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info x="522" y="58" width="492" height="707" id="Project Explorer" order="3" show_stripe_button="false" weight="0.3297587" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Job Explorer" order="6" show_stripe_button="false" weight="0.3297587" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49868765" visible="true" weight="0.17962466" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info anchor="bottom" id="Console" order="1" />
+      <window_info anchor="bottom" id="Sequence" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tool Output" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="11" />
+      <window_info anchor="bottom" id="Stack trace to UML" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="13" />
+      <window_info anchor="bottom" id="Find" order="14" />
+      <window_info active="true" anchor="bottom" id="Run" order="15" visible="true" weight="0.46110326" />
+      <window_info anchor="bottom" id="Debug" order="16" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="17" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="18" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="19" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.3297587" />
+      <window_info anchor="right" id="Codota" order="1" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Commander" order="8" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="11" sideWeight="0.5013123" weight="0.17895442" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.4/spark-sql_2.11-2.3.4.jar!/org/apache/spark/sql/DataFrameReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.4/spark-sql_2.11-2.3.4-sources.jar!/org/apache/spark/sql/SparkSession.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="654" column="6" selection-start-line="654" selection-start-column="6" selection-end-line="654" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sms_spam.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.4/spark-sql_2.11-2.3.4-sources.jar!/org/apache/spark/sql/DataFrameReader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sample_linear_regression_data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.4/spark-sql_2.11-2.3.4-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18299">
+          <caret line="687" column="6" selection-start-line="687" selection-start-column="6" selection-end-line="687" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/original.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/scriptFile.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/breast_cancer.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/scriptFile.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/decision_tree/ClassificationDecisionTree.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/汽车数据样本.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/VectorTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression07.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression06.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1019">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression05.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression04.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression03.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LogisticRegression02.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LinearRegression04.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LinearRegression02.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LinearRegression03.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/CarEventCountAnalytics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/PredictLRwithLBFGS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/RedisClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/TrainLRwithLBFGS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/baidu_analytics/KafkaEventProducer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/LinearRegression01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/002089特征.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/分词结果.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SparkMLlib.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sample_linear_regression_data_repeat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/replay_pid13484.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/optimize.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/kmeans_data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/insurance.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hs_err_pid13484.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/doc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/carFlow_all_column_test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MachineLearning.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/feifei/machineLearning/BlogKMeans.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
